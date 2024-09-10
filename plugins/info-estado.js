@@ -31,9 +31,9 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` ${tradutor.texto1[0]}
 
-  ${tradutor.texto1[1]} 𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓
-  ${tradutor.texto1[2]} +595984303784
-  ${tradutor.texto1[3]} https://chat.whatsapp.com/IGsGRrP8paEAD2mHVF0xUT
+  ${tradutor.texto1[1]} 𝐈𝐍𝐊𝐀𝐈𝐊𝐎𝐒 𝐁𝐎𝐓
+  ${tradutor.texto1[2]} +51968914403
+  ${tradutor.texto1[3]} https://www.instagram.com/inkaikos_ff?igsh=cGdhdXJ0cXIxeXNp
 
   ${tradutor.texto1[4]} ${rtime}
   ${tradutor.texto1[5]} ${uptime}
@@ -63,7 +63,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
+    document: { url: `ttps://www.instagram.com/inkaikos_ff` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -72,13 +72,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        mediaUrl: "ttps://www.instagram.com/inkaikos_ff",
         mediaType: 2,
         previewType: "pdf",
-        title: "𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓",
+        title: "𝐈𝐍𝐊𝐀𝐈𝐊𝐎𝐒 𝐁𝐎𝐓",
         body: tradutor.texto2,
         thumbnail: imagen1,
-        sourceUrl: "https://github.com/BrunoSobrino/TheMystic-Bot-MD",
+        sourceUrl: "ttps://www.instagram.com/inkaikos_ff",
       },
     },
     caption: info,

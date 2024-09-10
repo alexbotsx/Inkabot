@@ -11,9 +11,9 @@ const handler = async (m, {conn, usedPrefix}) => {
   const text = `${tradutor.texto1[0]}
 
 ${tradutor.texto1[1]}
-1.- https://chat.whatsapp.com/IGsGRrP8paEAD2mHVF0xUT`.trim();
+1.- https://www.instagram.com/inkaikos_ff?igsh=cGdhdXJ0cXIxeXNp`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `ttps://www.instagram.com/inkaikos_ff`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2}`,
     'fileLength': 99999999999999,
@@ -22,13 +22,13 @@ ${tradutor.texto1[1]}
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+        'mediaUrl': 'ttps://www.instagram.com/inkaikos_ff',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': `${tradutor.texto3}`,
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://chat.whatsapp.com/IGsGRrP8paEAD2mHVF0xUT'}},
+        'sourceUrl': 'https://www.instagram.com/inkaikos_ff?igsh=cGdhdXJ0cXIxeXNp'}},
     'caption': text,
     'footer': wm,
     'headerType': 6};
